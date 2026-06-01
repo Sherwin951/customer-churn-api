@@ -106,4 +106,4 @@ def predict():
 if __name__ == "__main__":
     load_artifacts()
     print("Churn Prediction API running on http://localhost:5000")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
